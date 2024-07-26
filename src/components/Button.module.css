@@ -1,0 +1,14 @@
+.button {
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: var(--main-pink);
+  color: var(--main-grey);
+  border: none;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.button:hover {
+  color: black;
+  font-size: 15px;
+}

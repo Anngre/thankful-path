@@ -1,0 +1,26 @@
+.navbar {
+  background-color: var(--main-pink);
+  border-bottom: 2px solid var(--main-grey);
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  color: var(--main-grey);
+  font-size: 40px;
+  text-decoration: none;
+  padding: 20px;
+  margin-right: auto;
+}
+
+.navbar a {
+  font-size: 30px;
+  color: var(--main-grey);
+  padding: 20px;
+  transition: all 0.5s;
+}
+
+.navbar a:hover {
+  color: black;
+}

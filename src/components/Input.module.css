@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  align-items: center;
+}
+
+.label {
+  text-transform: uppercase;
+  color: var(--main-grey);
+}
+
+.input {
+  width: 400px;
+  border: none;
+  border-bottom: 1px solid var(--main-pink);
+  background-color: inherit;
+  font-size: 14px;
+  padding: 4px;
+  text-align: center;
+}
+
+.input:focus {
+  outline: none;
+}

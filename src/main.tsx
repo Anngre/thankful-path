@@ -4,9 +4,9 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import App from "./App";
 import Login from "./components/Login";
 import Note from "./components/Note";
-import SignIn from "./components/SignIn";
 import ErrorPage from "./components/ErrorPage";
 import "./index.css";
+import SignUp from "./components/SignUp";
 
 const router = createBrowserRouter([
   {
@@ -19,8 +19,8 @@ const router = createBrowserRouter([
         element: <Login />,
       },
       {
-        path: "/signin",
-        element: <SignIn />,
+        path: "/signup",
+        element: <SignUp />,
       },
       {
         path: "notes/:noteId",

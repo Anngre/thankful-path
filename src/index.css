@@ -3,3 +3,18 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+  font-family: "Caveat", sans-serif;
+}
+
+:root {
+  --main-grey: #57534e;
+  --main-pink: #f9a8d4;
+  --secondary-pink: #fce7f3;
+  --secondary--grey: #f3f4f6;
+}
